@@ -109,6 +109,6 @@ twoDisplay.addEventListener('click', () => {
 })
 
 const playersTextDisplay = (() => {
-    oneDisplay.innerText = `${playerOne.name}\n Score: player ${playerOne.score}`;
-    twoDisplay.innerText = `${playerTwo.name}\n Score: player ${playerTwo.score}`;
+    oneDisplay.innerText = `${playerOne.name}\n Score: ${playerOne.score}`;
+    twoDisplay.innerText = `${playerTwo.name}\n Score: ${playerTwo.score}`;
 })
